@@ -22,7 +22,7 @@ def main():
             total_degrees += 720                            #turn clockwise twice
             total_degrees += (start - first + 40) % 40 *9
             total_degrees += 360 + (second - first +40) % 40 *9
-            total_degrees += (second - third + 40) %40 * 9
+            total_degrees += (second - third + 40) % 40 * 9
             print(total_degrees)
 if __name__ == '__main__':
     main()
